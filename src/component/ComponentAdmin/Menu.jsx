@@ -551,7 +551,7 @@ const Dashboard = () => {
                     color: "#FFFFFF", // Warna teks putih agar kontras dengan tombol biru
                   }}
                 >
-                  {showForm ? "Cancel" : "Tambah Menu"}
+                  {showForm ? "Kembali" : "Tambah Menu"}
                 </button>
               </div>
               <hr style={{ margin: "10px 0", border: "1px solid #000000" }} />
@@ -627,13 +627,6 @@ const Dashboard = () => {
                       style={{ marginRight: "10px" }}
                     >
                       {editMenuId ? "Selesai" : "Add Menu"}
-                    </button>
-                    <button
-                      type="button"
-                      className="btn btn-secondary"
-                      style={{ marginLeft: "680px" }}
-                    >
-                      Kembali
                     </button>
                   </div>
                 </form>

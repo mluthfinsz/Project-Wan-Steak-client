@@ -1,0 +1,21 @@
+/* Untuk menata sidebar dan admin menu pada desktop */
+.admin-menu-container {
+  display: flex;
+  flex-direction: row;
+  margin-left: 220px; /* Menyesuaikan dengan lebar sidebar */
+  padding: 20px;
+}
+
+/* Responsif: ketika layar kecil, stack secara vertikal */
+@media (max-width: 768px) {
+  .admin-menu-container {
+    flex-direction: column;
+    margin-left: 0;
+  }
+
+  .admin-sidebar {
+    position: relative;
+    width: 100%;
+    height: auto;
+  }
+}
